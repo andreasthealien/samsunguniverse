@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+/*
+font-family: 'Caveat', cursive;
+https://fonts.google.com/specimen/Caveat?preview.text=samsung%20universe&preview.text_type=custom&noto.script=Hans
+*/
+body{
+    margin-bottom: 50px;
+}
+
+.head-div{
+    width: 100%;
+    display: flex;
+}
+.head-div h1{
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
+    color: rgb(255, 98, 0);
+    margin: 5px;
+    margin-left: 120px;
+    text-shadow: 8px 8px 15px orange;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 200px;
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px dotted black;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.ceo{
+    border-left: 1px solid rgb(82, 82, 82);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ceo-img{
+    margin: auto;
+    max-height: 300px;
+    display: flex;
+    justify-self: center;
+}
+.center{
+    display: flex;
+    justify-self: center;
+    margin: 0px     auto;
+    text-align: center;
+}
+
+.samsung1, .samsung2{
+    display: flex;
+    flex-direction: column;
+}
+.prdct{
+    max-height: 200px;
+    max-width: 300px;
+    border: 2px solid black;
+}
+
+.n2{
+    max-width: 350px;
+    max-height: 190px;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.checked{
+    color: orange;
+}
+
+.s{
+    scale: 1.8;
+    margin-left: 12px;
+    transition: all 0.3s;
+}
+
+
+.s:hover{
+    cursor: pointer;
+    scale: 2;
+}
+.padding{
+    padding: 10px;
+}
